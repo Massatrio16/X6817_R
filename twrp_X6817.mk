@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from lion device
-$(call inherit-product, device/infinix/X6818/device.mk)
+$(call inherit-product, device/infinix/X6817/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
